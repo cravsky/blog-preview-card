@@ -57,36 +57,34 @@ img.illustration-article {
 }
 
 .published {
-    /* rules go here */
     margin-top: 0.75rem;
+    font-size: 0.875rem;
 }
 
 h1 {
-    /* check sizes */
-    margin-top: 1rem;
+    margin-top: 0.75rem;
     font-size: 1.5rem;
-
 }
 
 p {
+    margin-top: 0.75rem;
     color: var(--gray-500)
 }
 
 .author {
-    /* rules go here */
-    margin-top: 1rem;
+    margin-top: 1.5rem;
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
 .author img {
-    /* check sizes */
-    margin-right: 0.2rem;
-    transform: scale(0.7);
+    margin-right: 0.75rem;
+    width: 32px;
+    height: 32px;
 }
 
 .author h2 {
-    /* check sizes */
-    font-size: 1rem;
+    font-size: 0.875rem;
+    font-weight: 800;
 }
