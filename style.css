@@ -1,3 +1,10 @@
+@font-face {
+    font-family: Figtree;
+    src: url(assets/fonts/Figtree-VariableFont_wght.ttf);
+    font-weight: 500 800;
+    font-style: normal;
+}
+
 :root {
     --yellow: hsl(47, 88%, 63%);
     --white: hsl(0, 0%, 100%);
@@ -5,6 +12,75 @@
     --gray-950: hsl(0, 0%, 7%);
 }
 
-body{
+body {
     background-color: var(--yellow);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    background-color: var(--white);
+    font-family: Figtree;
+    color: var(--gray-950);
+    box-shadow: 5px 5px 1px var(--gray-950);
+    /* check sizes */
+    padding: 1rem;
+    width: 20rem;
+    border-radius: 10px;
+    border: 1px solid var(--gray-500);
+}
+
+img.illustration-article {
+    /* check sizes */
+    border-radius: 1rem;
+}
+
+.tag {
+    background-color: var(--yellow);
+    display: inline-block;
+    /* check sizez */
+    border-radius: 0.25rem;
+    padding: 0.25rem 0.5rem;
+    margin-top: 1rem;
+    font-weight: 900;
+}
+
+.published {
+    /* rules go here */
+    margin-top: 1rem;
+}
+
+h1 {
+    /* check sizes */
+    margin-top: 1rem;
+    font-size: 1.5rem;
+
+}
+
+p {
+    color: var(--gray-500)
+}
+
+.author {
+    /* rules go here */
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.author img {
+    /* check sizes */
+    margin-right: 0.2rem;
+    transform: scale(0.7);
+}
+
+.author h2{
+    /* check sizes */
+    font-size: 1rem;
 }
