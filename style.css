@@ -27,32 +27,38 @@ main {
     background-color: var(--white);
     font-family: Figtree;
     color: var(--gray-950);
-    box-shadow: 5px 5px 1px var(--gray-950);
-    /* check sizes */
-    padding: 1rem;
-    width: 20rem;
-    border-radius: 10px;
-    border: 1px solid var(--gray-500);
+    box-shadow: 8px 8px 0px var(--gray-950);
+    padding: 1.5rem;
+    width: 384px;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+.card:hover {
+    h1 {
+        color: var(--yellow);
+    }
 }
 
 img.illustration-article {
-    /* check sizes */
-    border-radius: 1rem;
+    border-radius: 10px;
 }
 
-.tag {
+.card-content {
+    margin-top: 1.5rem;
+}
+
+.category {
     background-color: var(--yellow);
     display: inline-block;
-    /* check sizez */
     border-radius: 0.25rem;
-    padding: 0.25rem 0.5rem;
-    margin-top: 1rem;
+    padding: 0.25rem 0.75rem;
     font-weight: 900;
 }
 
 .published {
     /* rules go here */
-    margin-top: 1rem;
+    margin-top: 0.75rem;
 }
 
 h1 {
@@ -80,7 +86,7 @@ p {
     transform: scale(0.7);
 }
 
-.author h2{
+.author h2 {
     /* check sizes */
     font-size: 1rem;
 }
