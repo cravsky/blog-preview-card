@@ -3,6 +3,7 @@
     src: url(assets/fonts/Figtree-VariableFont_wght.ttf);
     font-weight: 500 800;
     font-style: normal;
+    font-display: swap;
 }
 
 :root {
@@ -29,7 +30,7 @@ main {
     color: var(--gray-950);
     box-shadow: 8px 8px 0px var(--gray-950);
     padding: 1.5rem;
-    width: 384px;
+    max-width: 24rem;
     border-radius: 20px;
     border: 1px solid black;
 }
@@ -89,7 +90,7 @@ p {
     font-weight: 800;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 28rem) {
     .card {
         margin: 1rem;
         ;
